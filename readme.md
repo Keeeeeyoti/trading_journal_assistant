@@ -1,16 +1,21 @@
-# Trade Journal Assistant (In Progress)
+# Trade Journal Assistant (In development)
 
 ## Overview
 **Problem**
+
 Traders need an efficient, smart way to log, store trades, and access data driven insights from those data.
+
 **Solution**
-**Trade Journal Assistant** is a web-based trading journal designed to make trade tracking smarter, faster, and more insightful. It aims to centralize trade logging, automate performance metrics, and introduce a natural language AI assistant for interactive data queries - all tailored to the workflow of active traders.
+
+Trade Journal Assistant is a web-based trading journal designed to make trade tracking smarter, faster, and more insightful. It aims to centralize trade logging, automate performance metrics, and introduce a natural language AI assistant for interactive data queries - all tailored to the workflow of active traders.
 
 This project is currently in development.
 
 ## Resources Used
 Database - SSMS
+
 AI model - Ollama/Ilama3
+
 Key library used:Pandas, sqlalchemy, streamlit, langchain
 
 
@@ -46,6 +51,13 @@ flowchart TD
     User[User] <--> UI
 
 
+
     UI <--> API
     API <--> AI
     API <--> SQL
+```
+
+---
+
+
+![demonstration](demonstration.jpg)
