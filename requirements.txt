@@ -1,0 +1,6 @@
+pandas
+sqlalchemy
+streamlit
+requests
+langchain
+langchain_ollama

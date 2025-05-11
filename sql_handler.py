@@ -13,8 +13,8 @@ def write_trade(trade_data: dict):
             trade_data["date"] = datetime.now().date - timedelta(
                 days=trade_data["date_delta"]
             )
-            # Remove "time_delta" from the dictionary as it's no longer needed
-        del trade_data["time_delta"]
+        # Remove "date_delta" from the dictionary as it's no longer needed
+        del trade_data["date_delta"]
         trade = Trade(**trade_data)
         session.add(trade)
         session.commit()
